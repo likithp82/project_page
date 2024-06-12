@@ -116,7 +116,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="static/videos/blackswan_web.mp4"
+        <source src="static/videos/blackswan_space_final.mp4"
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -127,38 +127,90 @@
 </section>
 
 
+<!-- <style>
+  .results-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the videos horizontally */
+    gap: 1rem; /* Optional: Add some space between the videos */
+  }
+  .results-carousel .item {
+    width: 100%; /* Make sure the videos take the full width of the container */
+  }
+  video {
+    width: 100%; /* Make sure the video element scales properly */
+    height: auto; /* Maintain the aspect ratio */
+  }
+</style>
+
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/fg_jogging_women_final.mp4"
-                    type="video/mp4">
+          <video poster="" id="steve" autoplay controls muted loop playsinline>
+            <source src="static/videos/bikejump_space_time_final.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/fg_jogging_women_final.mp4"
-                    type="video/mp4">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline>
+            <source src="static/videos/dance_space_time_final.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/fg_jogging_women_final.mp4"
-                    type="video/mp4">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline>
+            <source src="static/videos/javelin_space_time_final.mp4" type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="static/videos/fg_jogging_women_final.mp4"
-                    type="video/mp4">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline>
+            <source src="static/videos/javelin_space_time_final.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<style>
+  .video-container {
+    width: 100%;
+    margin-bottom: 1rem; /* Optional: Add some space between the videos */
+  }
+  video {
+    width: 100%; /* Make sure the video element scales properly */
+    height: auto; /* Maintain the aspect ratio */
+  }
+</style>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="results-carousel">
+        <div class="video-container item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline>
+            <source src="static/videos/bikejump_space_time_final.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-container item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline>
+            <source src="static/videos/dance_space_time_final.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-container item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline>
+            <source src="static/videos/javelin_space_time_final.mp4" type="video/mp4">
           </video>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
+
+
 
 
 <section class="section">
@@ -398,6 +450,7 @@
     </div>
   </div>
 </section>
+
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
